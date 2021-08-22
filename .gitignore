@@ -1,2 +1,11 @@
 # Google App Engine generated folder
 appengine-generated/
+
+node_modules/
+
+npm-debug.log
+.idea
+.vscode
+.prettierrc
+
+/.prettierrc

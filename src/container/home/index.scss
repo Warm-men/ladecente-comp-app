@@ -153,3 +153,50 @@ a {
 .activeP {
   color: #333;
 }
+
+.footerView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20%;
+  margin-top: 28vh;
+  margin-bottom: 16vh;
+  flex-direction: column;
+  .joinUsView {
+    margin: 16px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .iconView {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .iconImg {
+        width: 38px;
+        height: 38px;
+      }
+    }
+  }
+  
+  .miniAppView {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: -50px 0 16 0;
+    display: flex;
+    flex-direction: column;
+    .miniAppQrCodeImg {
+      width: 180px;
+    }
+    .miniAppQrCodeDesc {
+      margin-top: 18px;
+      font-size: 12;
+      color: #000;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  }
+}
